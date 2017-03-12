@@ -24,8 +24,7 @@ window.onload = function(){
         var x = d3.scaleLinear() //create the scale
           .domain([0,40]) //output min and max
           .range([500,0]); //input min and max
-          //this is a generator functionn
-
+          //this is a generator function
 
         d3.json("data/MegaCities.geojson", function(data){
             //when you create a new element with d3 it switches what is selectd within the element
